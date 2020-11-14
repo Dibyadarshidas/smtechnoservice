@@ -1,0 +1,283 @@
+/* Color Palette */
+/* Ebony
+#0A0C1F
+
+Viola
+#CF83B5
+
+Java
+#23BAA0
+
+Persian Blue
+#2418C8 */
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Goldman" , sans-serif;
+}
+header{
+background-color: grey;
+background-image:url("https://images.pexels.com/photos/1044990/pexels-photo-1044990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+form{
+  padding: 10px;
+}
+input{
+  padding: 10px 50px;
+}
+/* Header Section */
+.cover{
+  padding: 10px 0 50px;
+}
+/* Navigation Bar & LOGO */
+.banner-text{
+  color: #fff;
+}
+.logo{
+  padding: 10px 10px;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-self:flex-start;
+}
+.nav-menu{
+  display: flex;
+}
+.nav-menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-right: 20px;
+}
+.nav-menu a:hover{
+  border-bottom: 2px solid #2418C8;
+}
+/* Banner */
+.container{
+  margin : 0 auto;
+  width: 1300px;
+  text-align: center;
+  padding:20px;
+  line-height: 1.2;
+}
+.container h2{
+  font-size: 70px;
+}
+.container p{
+  font-size: 30px;
+}
+.cta{
+  padding: 60px;
+}
+.cta-btn{
+  background-color: #0A0C1F;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #23BAA0;
+  box-shadow:0px 0px 0px 2px #CF83B5 inset;
+}
+.submit-btn{
+  background-color: #0A0C1F;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #23BAA0;
+  box-shadow:0 0 0 2px #CF83B5 inset;
+}
+.location{
+
+}
+.location-text{
+  color: #23BAA0;
+  font-size: 20px;
+  font-weight: bolder;
+  list-style: none;
+}
+
+/* Services */
+.services{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  line-height: 1.8;
+}
+.services div p{
+  font-size: 14px;
+}
+.services .fas{
+  font-size: 50px;
+}
+
+
+/* About Us */
+.about-us{
+  position: relative;
+}
+.about-us-head{
+  text-align: center;
+  margin: 30px auto;
+}
+.about-us-head h2{
+  font-size: 50px;
+}
+.about-us-head p{
+  font-size: 30px;
+}
+.about-us-text{
+  line-height: 2;
+}
+.about-us-text p{
+  font-size: 15px;
+}
+.about-us-img{
+  padding: 20px;
+}
+.about-us-img img{
+  width: 30rem;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.pink-block{
+  background-color: #CF83B5;
+  opacity: 0.3;
+  width: 100%;
+  height : 12rem;
+  position: absolute;
+  z-index: -1;
+  bottom :22rem;
+}
+.about-us-img img:hover{
+  transition: transform .2s;
+  transform: scale(1.1);
+  }
+
+
+/* Our Process */
+.our-process{
+  margin:30px;
+}
+.opt{
+  line-height: 2;
+}
+/* Our process icon size */
+.opi{
+  font-size:50px;
+  padding: 20px;
+}
+.process-icons{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+
+/* Our Expertise */
+.expertise-head{
+  display:block;
+  text-align: right;
+  margin: 30px auto;
+}
+.expertise-head h2{
+  font-size: 50px;
+}
+.expertise-head p{
+  font-size: 30px;
+}
+.web-dev{
+  background-color: #DCDCDC;
+  margin: 20px;
+  padding: 30px;
+}
+
+/* Get in Touch
+ */
+.get-in-touch{
+  background-image: linear-gradient(to right, #CF83B5 , #23BAA0);
+  padding: 40PX;
+}
+.wrapper-2{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+.touch-text{
+  grid-column: 1 / span 10;
+}
+.touch-text p{
+  font-size: 20px;
+}
+.git-btn{
+  grid-column: 11 / span 2;
+  align-self: center;
+}
+.git-btn a{
+  text-decoration: none;
+  color: #0A0C1F;
+  padding: 10px;
+  border: 2px solid #23BAA0;
+  box-shadow:0px 0px 0px 2px #CF83B5 inset;
+}
+.git-btn a:hover{
+  text-decoration: none;
+  background-color: #fff;
+  color: #0A0C1F;
+  padding: 10px;
+  border: 2px solid #23BAA0;
+  box-shadow:0px 0px 0px 2px #CF83B5 inset;
+}
+
+/* Testimonials */
+.testimonials{
+  text-align: center;
+  padding: 30px;
+}
+.testimonials-text{
+  margin: 60px;
+}
+.wrapper-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  line-height: 2;
+  grid-gap: 20px;
+  padding: 30px;
+}
+.card{
+  background-color: #DCDCDC;
+  box-shadow: 0 8px 6px -6px black;
+  padding: 20px;
+}
+
+/* Footer */
+.footer-sec{
+  background-color:black;
+}
+.footer{
+  display: flex;
+  justify-content:space-between;
+}
+.copyright h4{
+  color: #fff;
+}
+.policy a{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+.policy a:hover{
+  border-bottom: 2px solid #23BAA0;
+}
+.social-icons{
+  color: #fff;
+}
+.social-icons i{
+  padding: 10px;
+}
